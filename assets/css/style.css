@@ -43,7 +43,10 @@ div:nth-of-type(4){
     margin: 300px 3vw 0 3vw;
 }
 
+div{
+    transition: transform 0.5s;
+}
+
 div:hover{
     transform: rotate(90deg);
-    transition: 0.5s;
 }
